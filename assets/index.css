@@ -37,20 +37,27 @@
 
 .hero-title {
     color: var(--c-blue-dark);
-    font-size: 28px;
+    font-size: 24px;
+    font-weight: var(--fontWeightSemiBold);
 }
 
 .hero-title span {
     display: block;
+    font-weight: var(--fontWeightRegular);
 }
 
 .hero-button {
     color: var(--c-purple);
+    font-weight: var(--fontWeightSemiBold);
     background-color: var(--c-gray-2);
     padding: 12px 22px;
     border-radius: 12px;
 
     border: none;
+}
+
+.hero-button :focus, :hover {
+    outline: none;
 }
 
 .hero-image-wrapper {
@@ -112,16 +119,23 @@
     margin: 0;
     font-size: 28px;
     color: var(--c-purple);
+    font-weight: var(--fontWeightSemiBold);
 }
 
 .section-btn-more {
     color: var(--c-gray-3);
     border: none;
     padding: 0;
+    font-weight: var(--fontWeightSemiBold);
 }
 
 .section-btn-more:focus {
     outline: none;
+}
+
+.section-btn-more img {
+    width: 10px;
+    margin-left: 5px;
 }
 
 .new-songs-wrapper {
@@ -151,8 +165,9 @@
 }
 
 .new-song-title {
-    font-size: 18px;
+    font-size: 16px;
     margin: 8px 0 0 0;
+    font-weight: var(--fontWeightSemiBold);
 }
 
 .new-song-artist {
@@ -196,8 +211,9 @@
 }
 
 .popular-song-title {
-    font-size: 20px;
-    margin: 0
+    font-size: 16px;
+    margin: 0;
+    font-weight: var(--fontWeightSemiBold);
 }
 
 .popular-song-artist {
